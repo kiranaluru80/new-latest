@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{18E96A13-D497-4684-8A0B-DB204F7A65A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReadDataFromJson/ReadDataFromJsonPage.xaml">
+    <Files>
+      <File FileName="ReadDataFromJson/ReadDataFromJsonPage.xaml.cs" Line="23" Column="2" />
+      <File FileName="ReadDataFromJson/ViewModelBase.cs" Line="17" Column="5" />
+      <File FileName="ReadDataFromJson/ReadDataViewModel.cs" Line="45" Column="1" />
+      <File FileName="ReadDataFromJson/App.xaml.cs" Line="11" Column="39" />
+      <File FileName="../../Desktop/projects/SilencerShopMobile/SilencerShop/ViewModels/SignInViewModel.cs" Line="46" Column="3" />
+      <File FileName="ReadDataFromJson/ReadDataFromJsonPage.xaml" Line="13" Column="115" />
+      <File FileName="ReadDataFromJson/ResponceModel.cs" Line="21" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/ReadDataFromJsonAndListViewSorting-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="26" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/ReadDataFromJsonAndListViewSorting-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="26" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/ReadDataFromJsonAndListViewSorting-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="45" column="1" />
+      <Breakpoint file="/Users/ravikiranreddy/Downloads/ReadDataFromJsonAndListViewSorting-2/ReadDataFromJson/ReadDataViewModel.cs" relfile="ReadDataFromJson/ReadDataViewModel.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ReadDataFromJson.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D93C4D9C-6BC3-4614-8F47-6511184A1640" />
+  <MultiItemStartupConfigurations />
+</Properties>

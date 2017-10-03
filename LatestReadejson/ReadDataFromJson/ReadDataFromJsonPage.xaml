@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ReadDataFromJson" x:Class="ReadDataFromJson.ReadDataFromJsonPage">
+    <RelativeLayout>
+        <StackLayout Padding="20" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1.0}" Spacing="0">
+            <StackLayout x:Name="layoutref" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Entry Placeholder="sgmlskgksg ssgnsgsg" Text ="{Binding EntryText}"/>
+                <Button x:Name="pickerRef" Command="{Binding EnableExec}" HeightRequest="30" WidthRequest="30" BackgroundColor="Red">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+        
+        <StackLayout Margin="20" IsVisible = "{Binding PopOverVisible}">
+            <Picker Title="Select a monkey" ItemsSource="{Binding RootObjectSe}" ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding SelectedMajorGroup}" />
+            <SearchBar x:Name="searchRef"  Text ="{Binding SearchText}"/>
+            <ListView x:Name="listView" ItemsSource="{Binding OrgRelatedData}" SelectedItem="{Binding ListSelectedItem}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                    <Label Text="{Binding FirstName}" HorizontalOptions="FillAndExpand" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </RelativeLayout>
+</ContentPage>
